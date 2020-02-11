@@ -1,7 +1,7 @@
 body {
     margin: 0px;
 }
-body *{
+body * {
     margin: 0px;
     padding: 0px;
 }
@@ -17,8 +17,6 @@ body *{
 }
 .menu {
     text-align: center;
-}
-.menu ul {
     padding-inline-start: 0px;
     margin-bottom: 13px;
 }
@@ -28,7 +26,7 @@ body *{
     padding: 10px;
 }
 .menu a {
-    text-decoration-style: none;
+    text-decoration: none;
     color: #4a4a4a;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
@@ -36,7 +34,6 @@ body *{
 .main {
     background-color: #3CDBC0;
     height: 100vh;
-    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +42,6 @@ body *{
 .main h1 {
     color: #FFFFFF;
     font-size: 30px;
-    margin: 0px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
 }
@@ -56,13 +52,13 @@ body *{
         align-items: center;
     }
     .logo-container {
-        width: 155px;
         margin: 0px;
         padding: 20px 30px;
     }
     .menu {
         padding: 0px 30px;
-    }
+        margin: 0px;
+        }
     .main h1 {
         font-size: 40px;
     }
