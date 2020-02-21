@@ -1,36 +1,45 @@
 body {
     margin: 0px;
 }
+
 body * {
     margin: 0px;
     padding: 0px;
 }
+
 .header {
     position: fixed;
     background-color: white;
     width: 100%;
 }
+
 .logo-container {
     width: 155px;
     margin: auto;
     padding: 10px;
 }
+
 .menu {
     text-align: center;
     padding-inline-start: 0px;
     margin-bottom: 13px;
 }
+
 .menu li {
     list-style: none;
     display: inline;
     padding: 10px;
 }
+
 .menu a {
     text-decoration: none;
     color: #4a4a4a;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
-} 
+    text-transform: uppercase;
+    padding: 10px;
+}
+
 .main {
     background-color: #3CDBC0;
     height: 100vh;
@@ -39,12 +48,15 @@ body * {
     align-items: center;
     padding: 10px;
 }
+
 .main h1 {
     color: #FFFFFF;
     font-size: 30px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
 }
+
 @media all and (min-width:768px) {
     .header {
         display: flex;
@@ -58,7 +70,7 @@ body * {
     .menu {
         padding: 0px 30px;
         margin: 0px;
-        }
+    }
     .main h1 {
         font-size: 40px;
     }
